@@ -1,0 +1,16 @@
+This project is for calculating purcasing power of minimum wage in turkey between the years [2002 - 2023].
+
+Assumption-Referance: Inflation in US is accepted as referance, which means, we assume it is calculated correctly. So if it is 2% in 2010, it means purchasing power of 100 dolars in 2010 is equal to purchasing power of 102 dolars in 2011.
+
+Inputs: 
+	- minimum_wages.csv - it includes years versus minimum wages from 2002 to 2023 in Turkey in USD.
+	- US_inflation_rates.csv - it includes years versus inflation rates
+	- year - it will be given by user to make base wage to determine others situations(less or more)
+Outputs:
+	- results in less or more according to given year
+	- results in difference rate in percent
+
+Additional Goal:
+	- year input and run command taken via an user interface, a selection box and a button
+	
+
